@@ -43,7 +43,6 @@ public class Tarea3 {
         System.out.println("Escribe la frase " +"Hola amigo ¿cómo estás?");
         String frase = sc.nextLine();
         System.out.println(frase.substring(5,10));
-
     }
 
     }
