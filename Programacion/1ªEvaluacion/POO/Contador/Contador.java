@@ -1,5 +1,5 @@
 public class Contador {
-//Atributos
+    //Atributos
 
     private String nombre;
     private int contador;
@@ -13,7 +13,7 @@ public class Contador {
             this.contador = 0;
         }
     }
-//Getters y Setters
+    //Getters y Setters
     public String getNombre() {
         return this.nombre;
     }
@@ -34,23 +34,24 @@ public class Contador {
             this.contador=0;
         }
     }
-//Metodos
-    public int incrementar() {
+    //Metodos
+    public int Incrementar (){
         if ( contador < 100) {
             this.contador ++;
         }
-       return contador++;
+        return contador;
     }
+
 
     public int descrementar() {
         if (contador > 0) {
             this.contador--;
         }
-        return contador++;
+        return contador;
     }
     public String Info (){
-        return nombre + " -- " + contador + ".";
+        return nombre + " -------- " + contador + ".";
     }
 
-}
 
+}
